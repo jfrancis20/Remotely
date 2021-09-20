@@ -24,7 +24,7 @@ on:
   workflow_dispatch:
     inputs:
       serverUrl:
-        description: 'Server URL'     
+        description: 'https://remotely.retrospacelab.com'     
         required: true
       rid:
         description: 'Server Runtime Identifier'     
